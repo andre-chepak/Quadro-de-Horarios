@@ -22,7 +22,7 @@
             </thead>
             <tbody>
                 <!-- Cada linha representa um intervalo fixo -->
-                <tr data-intervalo="07:30-09:30">
+                <tr data-intervalo="10:00-12:00">
                         <th class="hora">
                         07h30 - 09h30<br>
                         <span class="rotulo">Turma:</span><br>
