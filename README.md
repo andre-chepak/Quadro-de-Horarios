@@ -22,7 +22,7 @@
             </thead>
             <tbody>
                 <!-- Cada linha representa um intervalo fixo -->
-                    <tr data-intervalo="07:30-09:30">
+                <tr data-intervalo="07:30-09:30">
                         <th class="hora">
                         07h30 - 09h30<br>
                         <span class="rotulo">Turma:</span><br>
@@ -34,9 +34,9 @@
                         <td data-dia="Quinta-feira"></td>
                         <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
-                    </tr>
+                </tr>
 
-                    <tr data-intervalo="10:00-12:00">
+                <tr data-intervalo="10:00-12:00">
                         <th class="hora">
                         10h00 - 12h00<br>
                         <span class="rotulo">Turma:</span><br>
@@ -48,9 +48,9 @@
                         <td data-dia="Quinta-feira"></td>
                         <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
-                    </tr>
+                </tr>
 
-                    <tr data-intervalo="13:30-15:30">
+                <tr data-intervalo="13:30-15:30">
                         <th class="hora">
                         13h30 - 15h30<br>
                         <span class="rotulo">Turma:</span><br>
@@ -62,9 +62,9 @@
                         <td data-dia="Quinta-feira"></td>
                         <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
-                    </tr>
+                </tr>
 
-                    <tr data-intervalo="16:00-18:00">
+                <tr data-intervalo="16:00-18:00">
                         <th class="hora">
                         16h00 - 18h00<br>
                         <span class="rotulo">Turma:</span><br>
@@ -76,9 +76,9 @@
                         <td data-dia="Quinta-feira"></td>
                         <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
-                    </tr>
+                </tr>
 
-                    <tr data-intervalo="19:00-20:40">
+                <tr data-intervalo="19:00-20:40">
                         <th class="hora">
                         19h00 - 20h40<br>
                         <span class="rotulo">Turma:</span><br>
@@ -90,9 +90,9 @@
                         <td data-dia="Quinta-feira"></td>
                         <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
-                    </tr>
+                </tr>
 
-                    <tr data-intervalo="21:00-22:40">
+                <tr data-intervalo="21:00-22:40">
                         <th class="hora">
                         21h00 - 22h40<br>
                         <span class="rotulo">Turma:</span><br>
@@ -104,7 +104,7 @@
                         <td data-dia="Quinta-feira"></td>
                         <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
-                    </tr>
+                </tr>
             </tbody>
         </table>
         <script src="../scripts/horario_prof.js"></script>
