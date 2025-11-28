@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../styles/style_horario.css">
     </head>
     <body>
-        <h1>Quadro de Horários da Professora Ana Paula</h1>
+        <h1>Quadro de Horários da Professor Domenico</h1>
         <table id="quadro-horarios">
             <thead>
             <tr>
