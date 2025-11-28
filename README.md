@@ -50,9 +50,9 @@
                         <td data-dia="Sábado"></td>
                 </tr>
 
-                <tr data-intervalo="13:30-15:30">
+                <tr data-intervalo="10:00-12:00">
                         <th class="hora">
-                        13h30 - 15h30<br>
+                        10h00 - 12h00<br>
                         <span class="rotulo">Turma:</span><br>
                         <span class="rotulo">Sala:</span>
                         </th>
@@ -64,9 +64,9 @@
                         <td data-dia="Sábado"></td>
                 </tr>
 
-                <tr data-intervalo="16:00-18:00">
+                <tr data-intervalo="10:00-12:00">
                         <th class="hora">
-                        16h00 - 18h00<br>
+                        10h00 - 12h00<br>
                         <span class="rotulo">Turma:</span><br>
                         <span class="rotulo">Sala:</span>
                         </th>
@@ -78,9 +78,9 @@
                         <td data-dia="Sábado"></td>
                 </tr>
 
-                <tr data-intervalo="19:00-20:40">
+                <tr data-intervalo="10:00-12:00">
                         <th class="hora">
-                        19h00 - 20h40<br>
+                        10h00 - 12h00<br>
                         <span class="rotulo">Turma:</span><br>
                         <span class="rotulo">Sala:</span>
                         </th>
@@ -92,9 +92,9 @@
                         <td data-dia="Sábado"></td>
                 </tr>
 
-                <tr data-intervalo="21:00-22:40">
+                <tr data-intervalo="10:00-12:00">
                         <th class="hora">
-                        21h00 - 22h40<br>
+                        10h00 - 12h00<br>
                         <span class="rotulo">Turma:</span><br>
                         <span class="rotulo">Sala:</span>
                         </th>
