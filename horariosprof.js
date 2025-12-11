@@ -1,17 +1,21 @@
 function montarQuadroHorarios(csvText) {
-  const linhas = csvText.split('\n').filter(linha => linha.trim() !== '');
-  
-  linhas.forEach(linha => {
-    const [dia, turma, disciplina, inicio, fim] = linha.split(';');
-    if (!dia || !inicio || !fim) return;
+    const linhas = csvText.split("\n");
 
-    const intervalo = `${inicio}-${fim}`;
-    const tr = document.querySelector(`tr[data-intervalo="${intervalo}"]`);
-    if (!tr) return;
+    linhas.forEach(linha => {
+        if (!linha.trim()) return;
 
-    const td = tr.querySelector(`td[data-dia="${dia}"]`);
-    if (!td) return;
+        const [dia, disciplina, inicio, fim] = linha.split(";");
 
-    td.textContent = `${disciplina} (${turma})`;
-  });
+        if (!dia || !inicio || !fim) return;
+
+        const intervalo = `${inicio}-${fim}`;
+
+        const linhaTabela = document.querySelector(`tr[data-intervalo="${intervalo}"]`);
+        const celula = document.querySelector(`td[data-dia="${dia}"][data-intervalo="${intervalo}"]`)
+            || (linhaTabela ? linhaTabela.querySelector(`td[data-dia="${dia}"]`) : null);
+
+        if (linhaTabela && celula) {
+            celula.innerHTML = `<strong>${disciplina}</strong><br>${turma}`;
+        }
+    });
 }
