@@ -1,41 +1,71 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 40px;
-    background: #f4f4f4;
+    margin: 0;
+    background: #f5f5f5;
 }
 
-h1 {
+header {
+    padding: 25px;
     text-align: center;
-    margin-bottom: 20px;
+    background: #4CAF50;
+    color: white;
+}
+
+.sub {
+    margin-top: -10px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.table-container {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1000px;
+    overflow-x: auto;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     background: white;
-    font-size: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
-th, td {
-    border: 1px solid #888;
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background: #4CAF50;
+thead th {
+    background: #3f9142;
     color: white;
+    padding: 12px;
+    font-size: 18px;
 }
 
-.col-hora {
-    background: #ddd;
+td, th {
+    text-align: center;
+    border: 1px solid #bdbdbd;
+    padding: 12px;
+}
+
+.hora {
+    background: #e0e0e0;
     font-weight: bold;
 }
 
 td {
-    min-width: 120px;
+    height: 70px;
+    vertical-align: middle;
 }
 
 td:hover {
-    background: #e6ffe6;
+    background: #eaffea;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.disciplina {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.turma {
+    font-size: 14px;
+    color: #444;
 }

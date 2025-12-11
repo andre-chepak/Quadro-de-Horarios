@@ -1,112 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Quadro de Horário</title>
-        <!-- CSS externo -->
-        <link rel="stylesheet" href="../styles/style_horario.css">
-    </head>
-    <body>
-        <h1>Quadro de Horários do Professor Domênico</h1>
-        <table id="quadro-horarios">
+<head>
+    <meta charset="UTF-8">
+    <title>Quadro de Horários do Professor</title>
+    <link rel="stylesheet" href="style_horarios.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Quadro de Horários</h1>
+        <p class="sub">Horários de Aulas do Professor</p>
+    </header>
+
+    <div class="table-container">
+        <table id="tabela-horarios">
             <thead>
-            <tr>
-                <th>Horário</th>
-                <th>Segunda</th>
-                <th>Terça</th>
-                <th>Quarta</th>
-                <th>Quinta</th>
-                <th>Sexta</th>
-                <th>Sábado</th>
-            </tr>
+                <tr>
+                    <th>Horário</th>
+                    <th data-dia="Segunda">Segunda</th>
+                    <th data-dia="Terça">Terça</th>
+                    <th data-dia="Quarta">Quarta</th>
+                    <th data-dia="Quinta">Quinta</th>
+                    <th data-dia="Sexta">Sexta</th>
+                </tr>
             </thead>
+
             <tbody>
-                <!-- Cada linha representa um intervalo fixo -->
-                    <tr data-intervalo="10:00-12:00">
-                        <th class="hora">
-                        10h00 - 12h00<br>
-                        <span class="rotulo">Turma:</span><br>
-                        <span class="rotulo">Sala:</span>
-                        </th>
-                        <td data-dia="Segunda-feira"></td>
-                        <td data-dia="Terça-feira"></td>
-                        <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
-                        <td data-dia="Sábado"></td>
-                    </tr>
+                <tr data-intervalo="07:30-09:30">
+                    <td class="hora">07:30 – 09:30</td>
+                    <td data-dia="Segunda"></td>
+                    <td data-dia="Terça"></td>
+                    <td data-dia="Quarta"></td>
+                    <td data-dia="Quinta"></td>
+                    <td data-dia="Sexta"></td>
+                </tr>
 
-                    <tr data-intervalo="10:00-12:00">
-                        <th class="hora">
-                        10h00 - 12h00<br>
-                        <span class="rotulo">Turma:</span><br>
-                        <span class="rotulo">Sala:</span>
-                        </th>
-                        <td data-dia="Segunda-feira"></td>
-                        <td data-dia="Terça-feira"></td>
-                        <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
-                        <td data-dia="Sábado"></td>
-                    </tr>
+                <tr data-intervalo="10:00-12:00">
+                    <td class="hora">10:00 – 12:00</td>
+                    <td data-dia="Segunda"></td>
+                    <td data-dia="Terça"></td>
+                    <td data-dia="Quarta"></td>
+                    <td data-dia="Quinta"></td>
+                    <td data-dia="Sexta"></td>
+                </tr>
 
-                    <tr data-intervalo="10:00-12:00">
-                        <th class="hora">
-                        10h00 - 12h00<br>
-                        <span class="rotulo">Turma:</span><br>
-                        <span class="rotulo">Sala:</span>
-                        </th>
-                        <td data-dia="Segunda-feira"></td>
-                        <td data-dia="Terça-feira"></td>
-                        <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
-                        <td data-dia="Sábado"></td>
-                    </tr>
+                <tr data-intervalo="13:30-15:30">
+                    <td class="hora">13:30 – 15:30</td>
+                    <td data-dia="Segunda"></td>
+                    <td data-dia="Terça"></td>
+                    <td data-dia="Quarta"></td>
+                    <td data-dia="Quinta"></td>
+                    <td data-dia="Sexta"></td>
+                </tr>
 
-                    <tr data-intervalo="10:00-12:00">
-                        <th class="hora">
-                        10h00 - 12h00<br>
-                        <span class="rotulo">Turma:</span><br>
-                        <span class="rotulo">Sala:</span>
-                        </th>
-                        <td data-dia="Segunda-feira"></td>
-                        <td data-dia="Terça-feira"></td>
-                        <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
-                        <td data-dia="Sábado"></td>
-                    </tr>
-
-                    <tr data-intervalo="10:00-12:00">
-                        <th class="hora">
-                        10h00 - 12h00<br>
-                        <span class="rotulo">Turma:</span><br>
-                        <span class="rotulo">Sala:</span>
-                        </th>
-                        <td data-dia="Segunda-feira"></td>
-                        <td data-dia="Terça-feira"></td>
-                        <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
-                        <td data-dia="Sábado"></td>
-                    </tr>
-
-                    <tr data-intervalo="10:00-12:00">
-                        <th class="hora">
-                        10h00 - 12h00<br>
-                        <span class="rotulo">Turma:</span><br>
-                        <span class="rotulo">Sala:</span>
-                        </th>
-                        <td data-dia="Segunda-feira"></td>
-                        <td data-dia="Terça-feira"></td>
-                        <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
-                        <td data-dia="Sábado"></td>
-                    </tr>
+                <tr data-intervalo="15:45-17:45">
+                    <td class="hora">15:45 – 17:45</td>
+                    <td data-dia="Segunda"></td>
+                    <td data-dia="Terça"></td>
+                    <td data-dia="Quarta"></td>
+                    <td data-dia="Quinta"></td>
+                    <td data-dia="Sexta"></td>
+                </tr>
             </tbody>
         </table>
-        <script src="../scripts/horario_prof.js"></script>
-    </body>
+    </div>
+
+    <script src="horario_prof.js"></script>
+
+    <script>
+        fetch("horarios.csv")
+            .then(res => res.text())
+            .then(text => montarQuadroHorarios(text));
+    </script>
+
+</body>
 </html>
