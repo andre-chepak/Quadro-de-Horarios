@@ -45,8 +45,8 @@
                         <td data-dia="Segunda-feira"></td>
                         <td data-dia="Terça-feira"></td>
                         <td data-dia="Quarta-feira"></td>
-                        <td data-dia="Quinta-feira"></td>
-                        <td data-dia="Sexta-feira"></td>
+                       td data-dia="Quinta-feira"></td>
+                      <   <td data-dia="Sexta-feira"></td>
                         <td data-dia="Sábado"></td>
                 </tr>
 
