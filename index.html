@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quadro de Horários</title>
+  <link rel="stylesheet" href="style_horarios.css">
+</head>
+<body>
+  <h1>Quadro de Horários do Professor Dom~enico</h1>
+
+  <table id="quadro-horarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-intervalo="10h00-12h00">
+        <td>10h00–12h00</td>
+        <td data-dia="Segunda"></td>
+        <td data-dia="Terça"></td>
+        <td data-dia="Quarta"></td>
+        <td data-dia="Quinta"></td>
+        <td data-dia="Sexta"></td>
+      </tr>
+      <tr data-intervalo="10h00-12h00">
+        <td>10h00–12h00</td>
+        <td data-dia="Segunda"></td>
+        <td data-dia="Terça"></td>
+        <td data-dia="Quarta"></td>
+        <td data-dia="Quinta"></td>
+        <td data-dia="Sexta"></td>
+      </tr>
+      <tr data-intervalo="10h00-12h00">
+        <td>10h00–12h00</td>
+        <td data-dia="Segunda"></td>
+        <td data-dia="Terça"></td>
+        <td data-dia="Quarta"></td>
+        <td data-dia="Quinta"></td>
+        <td data-dia="Sexta"></td>
+      </tr>
+      <tr data-intervalo="10h00-12h00">
+        <td>10h00–12h00</td>
+        <td data-dia="Segunda"></td>
+        <td data-dia="Terça"></td>
+        <td data-dia="Quarta"></td>
+        <td data-dia="Quinta"></td>
+        <td data-dia="Sexta"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="horario_prof.js"></script>
+  <script>
+    fetch('horarios.csv')
+      .then(response => response.text())
+      .then(text => montarQuadroHorarios(text));
+  </script>
+</body>
+</html>
